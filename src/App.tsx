@@ -4,7 +4,7 @@ import "./App.css";
 import { Amplify } from "aws-amplify";
 import type { Schema } from "../amplify/data/resource"; // Adicionado 'type' aqui
 import { generateClient } from "aws-amplify/data";
-import outputs from "../amplify_outputs.json";
+import outputs from "./amplify/amplify_outputs.json";
 import "@aws-amplify/ui-react/styles.css";
 
 Amplify.configure(outputs);
